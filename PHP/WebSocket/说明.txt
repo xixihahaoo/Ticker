@@ -1,7 +1,0 @@
-后端WebSocket采用GatewayWorker
-
-具体业务逻辑关注 GatewayWorker\Applications\YourApp\Events.php  即可
-
-
-
-使用方法请参考：https://www.workerman.net/doc/gateway-worker/

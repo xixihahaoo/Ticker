@@ -1,1 +1,10 @@
+该方法只适用于接收WebSocket数据行情推送，K线图获取请参考KlineAPI中的源码示例
+
+后端WebSocket采用GatewayWorker
+具体业务逻辑关注 GatewayWorker\Applications\YourApp\Events.php  即可
+
+使用方法请参考：https://www.workerman.net/doc/gateway-worker/
+
+
+
 行情对接地址：http://39.107.99.235:1008/market
