@@ -1,0 +1,5 @@
+行情对接地址：http://39.107.99.235:1008/market
+
+本环境使用 Python 3.12.1、pip 24.0
+
+需安装 websocket、websocket-client 扩展

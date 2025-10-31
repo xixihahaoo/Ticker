@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '0af9b8cc56dbe6ac1d757a9273ea5bf1b3688349',
+        'name' => 'workerman/gateway-worker-demo',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'workerman/gateway-worker' => array(
+            'pretty_version' => 'v3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../workerman/gateway-worker',
+            'aliases' => array(),
+            'reference' => '3364be5524f3ac49fa2356377ce4c0151371d063',
+            'dev_requirement' => false,
+        ),
+        'workerman/gateway-worker-demo' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '0af9b8cc56dbe6ac1d757a9273ea5bf1b3688349',
+            'dev_requirement' => false,
+        ),
+        'workerman/workerman' => array(
+            'pretty_version' => 'v4.1.11',
+            'version' => '4.1.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../workerman/workerman',
+            'aliases' => array(),
+            'reference' => '54aaf7f2a161f24f3339a722e0d3224ede466516',
+            'dev_requirement' => false,
+        ),
+    ),
+);
