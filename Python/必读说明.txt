@@ -1,0 +1,6 @@
+
+KLineAPI：获取K线图接口
+
+QuoteAPI：获取实时数据接口（功能与WebSocket一致，实现其一即可）
+
+WebSocket：获取实时信息数据推送（功能与QuoteAPI一致，实现其一即可）
